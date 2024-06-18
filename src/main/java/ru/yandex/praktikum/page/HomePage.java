@@ -61,10 +61,12 @@ public class HomePage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", new Object[]{element});
     }
 
+    //просто конкатенацию сделал
     public By getQuestion(int numberOfQuestion) {
         return By.id("accordion__heading-" + numberOfQuestion);
     }
 
+    //просто конкатенацию сделал
     public By getAnswer(int numberOfAnswer) {
         return By.id("accordion__panel-" + numberOfAnswer);
     }
