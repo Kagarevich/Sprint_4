@@ -56,6 +56,8 @@ public class OrderTest extends BaseTestClass {
         return new Object[][]{
                 {"headerOrderButton", "Райан", "Гослинг", "Кирпичникова 127", "+78007777333", 10, "19.08.2024", 7,
                         "greyColor", "Самокат"},
+                {"howItWorkOrderButton", "Миша", "Пушкин", "Дом Колотушкин 40", "+78005553535", 5, "19.08.2024", 7,
+                        "blackColor", "Не надо"},
                 {"headerOrderButton", "Рима", "Тарасова", "Гоголя 34", "88005553535", 15, "19.06.2024", 7,
                         "greyAndBlackColor", "Не ищите меня"},
                 {"howItWorkOrderButton", "Костя", "Пушкин", "Дом Колотушкин 117", "+78005553535", 5, "19.08.2024", 7,
