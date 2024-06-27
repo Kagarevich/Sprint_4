@@ -33,13 +33,13 @@ public class HomePage {
     }
 
     public void waitForLoadHomePage() {
-        (new WebDriverWait(driver, Duration.ofSeconds(20))).until((driver) ->
+        (new WebDriverWait(driver, 20)).until((driver) ->
                 driver.findElement(headerOrderButton).getText() != null &&
                 !driver.findElement(headerOrderButton).getText().isEmpty());
     }
 
     public void waitForLoadHowItWork() {
-        (new WebDriverWait(this.driver, Duration.ofSeconds(20))).until((driver) ->
+        (new WebDriverWait(this.driver, 20)).until((driver) ->
                 driver.findElement(howItWork).getText() != null && !driver.findElement(howItWork).getText().isEmpty());
     }
 

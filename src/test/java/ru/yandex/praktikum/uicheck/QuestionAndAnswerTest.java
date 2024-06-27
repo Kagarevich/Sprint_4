@@ -11,7 +11,7 @@ import static ru.yandex.praktikum.page.constant.Answers.*;
 //хотел назвать класс Q&A или QandA, но выбрал оптимальный вариант, хоть и не самый лаконичный
 //также можно было назвать и FAQ
 @RunWith(Parameterized.class)
-public class QuestionAndAnswerTest extends BaseTestClass {
+public class QuestionAndAnswerTest extends BaseTest {
 
     private final int numberOfQuestion;
     private final int numberOfAnswer;

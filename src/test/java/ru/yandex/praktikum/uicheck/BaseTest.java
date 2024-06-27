@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BaseTestClass {
+public class BaseTest {
 
     //решил не дописывать options для драйвера, чтобы всё было наглядно
     protected WebDriver driver;

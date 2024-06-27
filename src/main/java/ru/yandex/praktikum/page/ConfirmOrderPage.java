@@ -23,7 +23,7 @@ public class ConfirmOrderPage {
     }
 
     public void waitLoadConfirmModal() {
-        (new WebDriverWait(this.driver, Duration.ofSeconds(20))).until((driver) ->
+        (new WebDriverWait(this.driver, 20)).until((driver) ->
                 driver.findElement(modalHeader).getText() != null &&
                         !driver.findElement(modalHeader).getText().isEmpty());
     }

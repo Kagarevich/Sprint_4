@@ -11,7 +11,7 @@ import ru.yandex.praktikum.page.HomePage;
 import ru.yandex.praktikum.page.OrderPage;
 
 @RunWith(Parameterized.class)
-public class OrderTest extends BaseTestClass {
+public class OrderTest extends BaseTest {
 
     private final String button; //кнопка по местоположению на HomePage
     private final String name;

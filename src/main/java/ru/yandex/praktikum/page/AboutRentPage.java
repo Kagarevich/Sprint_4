@@ -37,7 +37,7 @@ public class AboutRentPage {
     }
 
     public void waitForLoadRentPage() {
-        (new WebDriverWait(driver, Duration.ofSeconds(20))).until((driver) ->
+        (new WebDriverWait(driver, 20)).until((driver) ->
                 driver.findElement(confirmRentButton).getText() != null &&
                 !driver.findElement(confirmRentButton).getText().isEmpty());
     }
